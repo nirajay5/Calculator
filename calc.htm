@@ -1,0 +1,61 @@
+<!--1+1 is a window
+2+2 is a fish
+21 vine, jump street
+0+0: are you mentally okay?
+how many problems do you need to solve? Your free trial is coming to an end-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Savage Calculator</title>
+  <link rel="stylesheet" type="text/css" href="calc.css">
+  <script src="calc.js"></script>
+</head>
+<body>
+<h1>WE SOLVE YOUR PROBLEMS</h1>
+<section>
+  <nav>
+    <p class = "p1" id="secret1"></p>
+    <p class = "p1" id="secret2"></p>
+  </nav>
+
+  <article>
+    <div class = "outer general"><!--outer border-->
+      <div class = "screen general"><!--display screen-->
+        <p class = "p2" id="screen"></p>
+      </div>
+      <div class = "grid general"><!--button grid-->
+        <div class="four calcbtn">
+          <button onclick="oper(1)">+</button>
+          <button onclick="oper(2)">-</button>
+          <button onclick="oper(3)">&times;</button>
+          <button onclick="oper(4)">&divide;</button>
+        </div>
+        <div class="three calcbtn">
+          <button onclick="storeNumber(1)">1</button>
+          <button onclick="storeNumber(2)">2</button>
+          <button onclick="storeNumber(3)">3</button>
+        </div>
+        <div class="three calcbtn">
+          <button onclick="storeNumber(4)">4</button>
+          <button onclick="storeNumber(5)">5</button>
+          <button onclick="storeNumber(6)">6</button>
+        </div>
+        <div class="three calcbtn">
+          <button onclick="storeNumber(7)">7</button>
+          <button onclick="storeNumber(8)">8</button>
+          <button onclick="storeNumber(9)">9</button>
+        </div>
+        <div class="three calcbtn">
+          <button onclick="del()">DEL</button>
+          <button onclick="storeNumber(0)">0</button>
+          <button onclick="enter()">=</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  <nav>
+    <p class = "p1" id="secret3"></p>
+    <p class = "p1" id="secret4"></p>
+  </nav>
+</section>
+</body>
